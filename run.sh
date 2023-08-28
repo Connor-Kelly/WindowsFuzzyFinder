@@ -1,12 +1,10 @@
 #!/bin/bash
-
-windows=$(py getAllWindows.py)
+# echo "Started Fuzzy Finder"
+# windows=$(./getAllWindows.exe)
 # windows=$(python -c 'import getAllWindows; print(getAllWindows())')
+# sleep 2
+# echo -e $windows
 
-selected=$(echo -e $windows | fzf)
+# echo -e $windows | fzf
 
-
-
-echo "Selected: '" $selected "'"
-
-py selectWindow.py "$selected"
+./selectWindow.exe "$(./getAllWindows.exe | fzf)"

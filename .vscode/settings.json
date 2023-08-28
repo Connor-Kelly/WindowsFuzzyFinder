@@ -1,0 +1,8 @@
+{
+	"cmake.sourceDirectory": "C:/Users/conno/OneDrive/ProgrammingProjects/WindowFuzzyFinder",
+	"files.associations": {
+		"xstring": "cpp",
+		"iostream": "cpp"
+	},
+	"C_Cpp.errorSquiggles": "disabled"
+}
